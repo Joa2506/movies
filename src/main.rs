@@ -11,10 +11,8 @@ fn main() {
     let mut rng = rand::thread_rng();
     let n:usize = rng.gen_range(1..251) as usize;
 
-    println!("{}", movies.pick_movie_by_rank(n));
+    println!("{}", movies.pick_movie_by_rank_test(n));
     
-    // match movies.get_movie_by_rank(1) {
-    //     Some(x) => println!("{}",x.to_string()),
-    //     None => println!("The movie doesn't exist"),
-    // }
+    //println!("{}", movies.look_up_name("The Shawshank Redemption".to_string()));
+
 }
