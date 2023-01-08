@@ -34,7 +34,7 @@ impl Movie {
 impl MovieList {
     pub fn new() -> Self {
         let movies: Vec<Movie> = Vec::new();
-        let watched: Vec<Movie> = Vec::new();
+ //       let watched: Vec<Movie> = Vec::new();
         MovieList { movies:movies, size:0 }
     }
     pub fn add_movie(&mut self, movie: Movie) {
@@ -74,10 +74,10 @@ impl MovieList {
             
         }
     }
-    //Todo
-    pub fn check_if_watched(&self, rank:usize) -> bool {
-        true
-    }
+    // //Todo
+    // pub fn check_if_watched(&self, rank:usize) -> bool {
+    //     true
+    // }
 
     //Returns the String value of the movies based on name
     pub fn look_up_name(&self, name:String) -> String {
