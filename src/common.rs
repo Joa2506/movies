@@ -45,11 +45,4 @@ pub fn write_to_file(movie: &Movie) -> std::io::Result<()>{
     Ok(())    
 }
 
-// fn line_to_movie(line: &str) -> Movie {
-
-// }
-
-// pub fn find_movie (number: usize) {
-//     let content = fs::read_to_string(INePUT_FILE).expect("Unable to read file");
-//     println!("{}", content);
-// }
+//TODO parse movies to json format and read from that instead
