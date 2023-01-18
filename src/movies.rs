@@ -73,10 +73,10 @@ impl MovieList {
             
         }
     }
-    //Todo
-    pub fn check_if_watched(&self, _rank:usize) -> bool {
-        true
-    }
+    // //Todo
+    // pub fn check_if_watched(&self, rank:usize) -> bool {
+    //     true
+    // }
 
     //Returns the String value of the movies based on name
     pub fn look_up_name(&self, name:String) -> String {
